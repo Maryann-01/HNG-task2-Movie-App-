@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.map p{
+    /* border:2px solid red; */
+}
+.landingPage{
+    /* width:100%; */
+    height:100%;
+    color:#FFFFFF;
+}
+.firstPart{
+    background-image: url(../../images/Poster.png);
+    background-repeat: no-repeat;
+    height:70vh;
+       background-size: cover;
+       /* padding:2vh 5vw; */
+}
+.movieIcon-txt{
+    font-family: DM Sans;
+font-size:1.2vw;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+color: hsla(0, 0%, 100%, 1);
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:2vh 5vw;
+}
+.nav-div{
+    display:flex;
+    align-items: center;
+    gap:1.5vw;
+}
+.signIn{
+    font-size: 1vw;
+}
+.nav-div input{
+    border: 2px solid hsla(216, 12%, 84%, 1);
+    background: transparent;
+    /* padding:1vh 10vw; */
+    width:30vw;
+    padding:1vh 0;
+    color: hsla(0, 0%, 100%, 1);
+    /* border:2px solid red; */
+}
+.nav-div input::placeholder{
+    /* font-size: 1vw; */
+    font-family: DM Sans;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+color: hsla(0, 0%, 100%, 1);
+
+}
+.displayMovie{
+    width:25vw;
+    display:flex;
+    flex-direction: column;
+    gap:3vh;
+     margin:2vh 5vw;
+}
+.displayMovie h2{
+    font-family: DM Sans;
+font-size: 2.5vw;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+}
+.displayMovie p{
+    font-family: DM Sans;
+font-size: 0.9vw;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+}
+.displayMovie button{
+    background-color: hsla(345, 83%, 41%, 1);
+    border:none;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:1vh 2vw;
+    border-radius: 6px;
+    width:50%;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+}
+.socialMedia,.footerTxt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+}
+.backArrow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.backArrow p{
+    color: hsla(345, 83%, 41%, 1);
+    font-family: DM Sans;
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.footerTxt{
+ gap:1vw;
+color: hsla(221, 39%, 11%, 1);
+font-family: DM Sans;
+font-size: 1.1vw;
+font-weight: 700;
+letter-spacing: 0px;
+text-align: left;
+}
+.copyright{
+ color: hsla(220, 9%, 46%, 1);
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.socialMedia img {
+    width:1vw;
+}
+.secondPart,.map p{
+    color:black;
+}
+.secondTxt{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4vh 2vw 2vh 8vw;
+}
+.secondTxt .feat{
+    font-family: DM Sans;
+font-size: 2vw;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:0 2vw 0 5vw;
+    gap:0.2vw;
+}

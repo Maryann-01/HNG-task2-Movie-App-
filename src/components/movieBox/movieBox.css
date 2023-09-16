@@ -1,0 +1,134 @@
+.side{
+    border: 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius: 0px 49px 49px 0;
+    width:14vw;
+    height:100vh;
+    /* padding:5vw; */
+}
+.movieBox-text{
+    font-family: DM Sans;
+font-size: 1.2vw;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+}
+.flex{
+    display:flex;
+    align-items: center;
+    gap:2vw;
+    /* border:2px solid green; */
+    padding:2vh 0;
+    justify-content: center;
+}
+.movieBox-page{
+    display:flex;
+}
+.side{
+    /* display:flex;  */
+}
+.borderTxt{
+    border: 1px solid hsla(345, 83%, 41%, 0.7);
+    margin:30px;
+    border-radius:9px;
+    padding:3vh  1vw;
+}
+.playTxt{
+    font-family: Poppins;
+font-size: 1vw;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom:3vh;
+}
+.btn-span{
+    font-family: Poppins;
+font-size: 0.9vw;
+font-weight: 500;
+color: hsla(345, 83%, 41%, 1);
+letter-spacing: 0em;
+text-align: left;
+
+}
+.borderTxt button{
+    background-color: hsla(345, 83%, 41%, 0.2);
+    border:none;
+    padding:0.4vh 1vw;
+    border-radius:10px;
+}
+.playTxt2{
+    color: hsla(0, 0%, 40%, 1);
+    font-family: Poppins;
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding-bottom:1vh;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.item:active,.item:hover{
+color:  hsla(345, 83%, 41%, 1);
+cursor:pointer;
+background-color: hsla(345, 83%, 41%, 0.1);
+}
+.sidegap{
+    display:flex;
+    flex-direction: column;
+    gap:5vh;
+    /* border:2px solid red; */
+}
+.rightSide{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:3vh;
+}
+.moviePoster{
+    /* width:500px; */
+    /* background-size: auto; */
+    height:50vh;
+    /* background-image: ; */
+    width: 950px;
+/* height:auto; */
+/* border:2px solid red; */
+border-radius: 20px;
+/* object-fit:; */
+/* aspect-ratio: 16/9; */
+/* object-fit: fill; */
+}
+.pTag p{
+    width:50vw;
+    font-family: Poppins;
+font-size: 1.2vw;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+}
+.pTag{
+    display:flex;
+    gap:2.5vw;
+}
+.btn{
+    display:flex;
+    flex-direction: column;
+
+}
+.btn1{
+    background-color: hsla(345, 83%, 41%, 1);
+border:none;
+padding:1.4vh 2vw;
+color:white;
+border-radius: 8px;
+}
+.btn2{
+    background-color: hsla(345, 83%, 41%, 0.1);
+    padding:1.4vh 2.5vw;
+    border-radius:8px;
+    margin-top:2vh;
+    font-family: Poppins;
+font-size: 1.2vw;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+    border: 1px solid hsla(345, 83%, 41%, 1);
+}

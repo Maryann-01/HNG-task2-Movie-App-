@@ -1,0 +1,37 @@
+.movieCard{
+    margin:0 auto;
+}
+.movie-card{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.movieCard img{
+    width:20vw;
+    height:55vh;
+}
+.release-date{
+    font-family: DM Sans;
+font-size: 0.9vw;
+font-weight: 700;
+letter-spacing: 0em;
+text-align:left;
+color: hsla(218, 11%, 65%, 1);
+text-decoration: none;
+}
+.release-date p{
+    margin:2vh 0 0vh;
+}
+.movie-title{
+    font-family: DM Sans;
+font-size: 1.2vw;
+font-weight: 700;
+color: hsla(221, 39%, 11%, 1);
+letter-spacing: 0px;
+text-align: left;
+margin:0.3vh 0 12vh;
+}
+.imdb{
+    width:0.3vw;
+    height:0.3vh;
+    /* border:2px solid red; */
+}
