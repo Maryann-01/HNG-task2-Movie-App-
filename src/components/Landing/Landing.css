@@ -15,7 +15,7 @@
 .firstPart{
     background-image: url(../../images/Poster.png);
     background-repeat: no-repeat;
-    height:70vh;
+    /* height:70vh; */
        background-size: cover;
        /* padding:2vh 5vw; */
 }
@@ -168,5 +168,28 @@ text-align: left;
         /* height:0vh; */
            background-size: contain;
            /* padding:2vh 5vw; */
+    }
+}
+@media only screen and (max-width:900px){
+    .grid{
+        display:grid;
+        /* width:10vw; */
+        grid-template-columns: repeat(1,1fr);
+        /* flex-wrap: wrap; */
+        padding:0 2vw 0 5vw;
+        gap:0.2vw;
+    }
+    .firstPart{
+        background-image: url(../../images/Poster.png);
+        background-repeat: no-repeat;
+           background-size: contain;
+    }
+    .backArrow p{
+        color: hsla(345, 83%, 41%, 1);
+        font-family: DM Sans;
+        font-size: 3vw;
+    }
+   .secondTxt .feat{
+        font-size:5vw;
     }
 }
