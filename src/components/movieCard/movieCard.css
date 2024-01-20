@@ -5,9 +5,25 @@
     display:grid;
     grid-template-columns: repeat(4,1fr);
 }
-.movieCard img{
+.movieCard-img{
     width:20vw;
     height:55vh;
+    position: relative;
+}
+.heartImage{
+    width:20px;
+    height:20px;
+   z-index: 1;
+   padding: 3px;
+   margin-top: 8px;
+   background-color: hsla(220, 14%, 96%, 0.5);
+border-radius: 50%;
+color:white;
+margin-left: 240px;
+    position: absolute;
+}
+.heartImage :active{
+    background-color: red;
 }
 .release-date{
     font-family: DM Sans;
@@ -36,11 +52,22 @@ margin:0.3vh 0 12vh;
     /* border:2px solid red; */
 }
 @media only screen and (max-width:1024px){
-    .movieCard img{
+    .movieCard-img{
         width:40vw;
         height:50vh;
     }
-
+    .heartImage{
+        width:20px;
+        height:20px;
+       z-index: 1;
+       padding: 3px;
+       margin-top: 8px;
+       background-color: hsla(220, 14%, 96%, 0.5);
+    border-radius: 50%;
+    color:white;
+    margin-left: 240px;
+        position: absolute;
+    }
 .release-date{
     font-family: DM Sans;
 font-size: 2vw;
@@ -54,10 +81,7 @@ font-size: 2vw;
 font-size: 2.4vw;
 
 }
-.heartImage img{
-    width:300px;
-    background-color: red;
-}
+
 }
 @media only screen and (max-width:900px){
     .movie-card{

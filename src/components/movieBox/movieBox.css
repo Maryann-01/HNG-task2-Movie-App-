@@ -86,15 +86,9 @@ background-color: hsla(345, 83%, 41%, 0.1);
 .moviePoster{
     /* width:500px; */
     /* background-size: auto; */
-    height:50vh;
-    /* background-image: ; */
-    width: 950px;
-/* height:auto; */
-/* border:2px solid red; */
+    height:70vh;
+    width: 70vw;
 border-radius: 20px;
-/* object-fit:; */
-/* aspect-ratio: 16/9; */
-/* object-fit: fill; */
 }
 .pTag p{
     width:50vw;

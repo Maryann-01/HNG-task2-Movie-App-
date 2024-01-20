@@ -9,24 +9,29 @@ const MovieCard = ({ eachMovie }) => {
   // const []
   const { id } = eachMovie;
   const [isClicked, setIsClicked] = useState(false);
+  const [color,setColor]=useState(false)
   const navigate = useNavigate();
   const handleClick = (event) => {
     setIsClicked(!isClicked);
     // console.log(event.target.id)
   };
+  const changeImageColor=()=>{
+   setColor(!color)
+  }
   useEffect(() => {
     isClicked ? navigate(`/movies/${id}`) : null;
   }, [isClicked]);
   return (
     <div className="movie-card">
       <div className="movieCard" data-testid="movie-card">
-	  <span className="heartImage">
-          <img src={heart}/>
-        </span>
+	    <div className="heartImage-div">
+          <img src={heart} className="heartImage" onClick={changeImageColor} style={{backgroundColor:color?"red":""}}/>
+        </div>
         <img
           src={`https://image.tmdb.org/t/p/original${eachMovie.poster_path}`}
           alt={eachMovie.title}
           id={id}
+		  className="movieCard-img"
           data-testid="movie-poster"
           onClick={handleClick}
         />
