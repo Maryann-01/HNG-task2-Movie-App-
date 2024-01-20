@@ -165,9 +165,6 @@ text-align: left;
     .firstPart{
         background-image: url(../../images/Poster.png);
         background-repeat: no-repeat;
-        /* height:0vh; */
-           background-size: contain;
-           /* padding:2vh 5vw; */
     }
 }
 @media only screen and (max-width:900px){

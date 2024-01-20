@@ -15,6 +15,7 @@ import img5 from "../../images/Poster (4).png"
 import img6 from "../../images/Poster (5).png"
 import img7 from "../../images/Poster (6).png"
 import img8 from "../../images/Poster (2).png"
+
 import backArrow from "../../images/Chevron right.png"
 // import "../movieCard/movieCard"
 import MovieCard from '../movieCard/movieCard' 
@@ -76,7 +77,7 @@ const Landing = () => {
                 </div>
                 <div className='grid'>
                 {allMovieData.map(function (eachMovie, index) {
-					if (index >9 && index<=20) {
+					if (index >1 && index<=23) {
 						return (
 							<section key={index}>
 								<MovieCard key={eachMovie.id} eachMovie={eachMovie} />

@@ -73,7 +73,7 @@ const movieBox = () => {
         <div>
           <p data-testid="movie-title">{movie.title}.<span data-testid="movie-release-date">{releaseDate}</span></p>
         </div>
-        <div className='pTag' data-testid="movie-overview">
+        <div className='pTag' data-testid="movie-overview"> 
          <p>{movie.overview}</p>
          <div className="btn">
            <button className="btn1">See Showtimes</button>
